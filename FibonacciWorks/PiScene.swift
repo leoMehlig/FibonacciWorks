@@ -62,18 +62,7 @@ class PiScene: SKScene {
                 spark.particleColor = color
                 spark.particlePositionRange = CGVector(dx: self.frame.width, dy: 0)
                 spark.targetNode = self.scene
-                spark.runAction(SKAction.sequence([SKAction.waitForDuration(Double(spark.particleLifetime)), SKAction.runBlock {
-                    if let s = NSBundle.mainBundle().pathForResource("FireSpark1", ofType: "sks").flatMap({ NSKeyedUnarchiver.unarchiveObjectWithFile($0) as? SKEmitterNode }) {
-                        print(self.frame.maxY)
-                        s.position = CGPoint(x: self.frame.midX, y: 0)
-                        s.particleColorSequence = nil
-                        s.particleColor = color
-                        s.particlePositionRange = CGVector(dx: self.frame.width, dy: 0)
-                        s.targetNode = self.scene
-                    }
-                    }])) {
-                    
-                }
+                spark.runAction(SKAction.sequence([SKAction.waitForDuration(Double(spark.particleLifetime)), SKAction.removeFromParent()]))
                 self.addChild(spark)
                 index++
             }

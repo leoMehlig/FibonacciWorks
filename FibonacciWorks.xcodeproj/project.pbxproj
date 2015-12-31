@@ -18,6 +18,9 @@
 		7FD7F9B01C35BA7B00DCACB2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7F9AF1C35BA7B00DCACB2 /* ColorExtension.swift */; };
 		7FD7F9B21C35D2F500DCACB2 /* FireSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7F9B11C35D2F500DCACB2 /* FireSpark.sks */; };
 		7FD7F9B41C35DAEB00DCACB2 /* FireSpark1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7F9B31C35DAEB00DCACB2 /* FireSpark1.sks */; };
+		7FD7F9B61C35DCDD00DCACB2 /* FibonacciScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7F9B51C35DCDD00DCACB2 /* FibonacciScene.swift */; };
+		7FD7F9DB1C35E82500DCACB2 /* boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7F9D91C35E82500DCACB2 /* boom.mp3 */; };
+		7FD7F9DC1C35E82500DCACB2 /* launch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7F9DA1C35E82500DCACB2 /* launch.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		7FD7F9AF1C35BA7B00DCACB2 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		7FD7F9B11C35D2F500DCACB2 /* FireSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireSpark.sks; sourceTree = "<group>"; };
 		7FD7F9B31C35DAEB00DCACB2 /* FireSpark1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireSpark1.sks; sourceTree = "<group>"; };
+		7FD7F9B51C35DCDD00DCACB2 /* FibonacciScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciScene.swift; sourceTree = "<group>"; };
+		7FD7F9D91C35E82500DCACB2 /* boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom.mp3; sourceTree = "<group>"; };
+		7FD7F9DA1C35E82500DCACB2 /* launch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = launch.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +77,15 @@
 				7FD7F9B11C35D2F500DCACB2 /* FireSpark.sks */,
 				7FD7F9B31C35DAEB00DCACB2 /* FireSpark1.sks */,
 				7FD7F9951C35B49700DCACB2 /* PiScene.swift */,
+				7FD7F9B51C35DCDD00DCACB2 /* FibonacciScene.swift */,
 				7FD7F9971C35B49700DCACB2 /* GameViewController.swift */,
 				7FD7F9991C35B49700DCACB2 /* Main.storyboard */,
 				7FD7F99C1C35B49700DCACB2 /* Assets.xcassets */,
 				7FD7F99E1C35B49700DCACB2 /* LaunchScreen.storyboard */,
 				7FD7F9AD1C35BA6C00DCACB2 /* pi_10_000_000.txt */,
 				7FD7F9A11C35B49700DCACB2 /* Info.plist */,
+				7FD7F9D91C35E82500DCACB2 /* boom.mp3 */,
+				7FD7F9DA1C35E82500DCACB2 /* launch.mp3 */,
 				7FD7F9AF1C35BA7B00DCACB2 /* ColorExtension.swift */,
 			);
 			path = FibonacciWorks;
@@ -143,6 +152,8 @@
 				7FD7F9AA1C35B54100DCACB2 /* spark.png in Resources */,
 				7FD7F9B41C35DAEB00DCACB2 /* FireSpark1.sks in Resources */,
 				7FD7F9A01C35B49700DCACB2 /* LaunchScreen.storyboard in Resources */,
+				7FD7F9DC1C35E82500DCACB2 /* launch.mp3 in Resources */,
+				7FD7F9DB1C35E82500DCACB2 /* boom.mp3 in Resources */,
 				7FD7F99D1C35B49700DCACB2 /* Assets.xcassets in Resources */,
 				7FD7F9AE1C35BA6C00DCACB2 /* pi_10_000_000.txt in Resources */,
 				7FD7F9B21C35D2F500DCACB2 /* FireSpark.sks in Resources */,
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD7F9B61C35DCDD00DCACB2 /* FibonacciScene.swift in Sources */,
 				7FD7F9961C35B49700DCACB2 /* PiScene.swift in Sources */,
 				7FD7F9981C35B49700DCACB2 /* GameViewController.swift in Sources */,
 				7FD7F9921C35B49700DCACB2 /* AppDelegate.swift in Sources */,
